@@ -1,0 +1,6 @@
+services:
+  symfony_http_foundation_debugging.productguides_request_subscriber:
+    class: Drupal\symfony_http_foundation_debugging\EventSubscriber\ProductGuidesRequestSubscriber
+    arguments: ['@path.current', '@path.validator', '@language_manager']
+    tags:
+      - { name: event_subscriber }

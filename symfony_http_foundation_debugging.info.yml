@@ -1,0 +1,4 @@
+name: 'Breaking symfony/http-foundation'
+type: module
+description: 'For debugging symfony/http-foundation issue'
+core_version_requirement: ^10
